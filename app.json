@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Namibia Hockey",
+    "slug": "namibia-hockey",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/hockey.jpg",
+    "scheme": "namibiahockey",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/hockey.jpg",
+        "backgroundColor": "#003366"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.boy1.namibiahockey"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/hockey.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/hockey.jpg",
+          "imageWidth": 300,
+          "resizeMode": "contain",
+          "backgroundColor": "#003366"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ed0a7c02-5c62-4905-8666-958a28017b96"
+      }
+    },
+    "owner": "boy1"
+  }
+}
